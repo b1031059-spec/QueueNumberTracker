@@ -1,0 +1,20 @@
+language: en
+hospital_1:
+  url: hospital_1_url
+  doctors:
+  - doctor_1
+  - doctor_2
+  - doctor_3
+  - another
+hospital_2:
+  url: hospital_2_url
+  doctors:
+  - doctor_4
+  - doctor_5
+  - doctor_6
+  - another
+lastBBox:
+  X: 553
+  Y: 476
+  W: 360
+  H: 240
