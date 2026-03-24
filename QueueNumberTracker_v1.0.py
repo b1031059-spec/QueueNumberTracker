@@ -152,8 +152,8 @@ texts = {
 def get_resource_path(filename: str) -> str:
     # 取得目前程式所在目錄（兼容 .py 與 exe）
     if getattr(sys, 'frozen', False):  
-        # base_path = sys._MEIPASS # 非 onefile 編譯模式路徑
-        base_path = os.path.dirname(sys.executable)
+        base_path = sys._MEIPASS                      # 非 onefile 編譯模式路徑
+        # base_path = os.path.dirname(sys.executable)   # onefile 編譯模式路徑
     else:
         base_path = os.path.dirname(os.path.abspath(__file__))  
     return os.path.join(base_path, filename)
