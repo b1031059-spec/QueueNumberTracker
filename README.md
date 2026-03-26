@@ -149,7 +149,7 @@ Technical Details:
 
 ---
         
-技術細節:
+技術細節：
     作業系統：Windows 
     開發語言：Python
     辨識引擎：EasyOCR (Optical Character Recognition)
